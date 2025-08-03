@@ -1,12 +1,13 @@
-public class MultiplyTwoNumbers {
+public class AsciiValue {
 
     public static void main(String[] args) {
 
-        float first = 1.5f;
-        float second = 2.0f;
+        char ch = 'a';
+        int ascii = ch;
+        // You can also cast char to int
+        int castAscii = (int) ch;
 
-        float product = first * second;
-
-        System.out.println("The product is: " + product);
+        System.out.println("The ASCII value of " + ch + " is: " + ascii);
+        System.out.println("The ASCII value of " + ch + " is: " + castAscii);
     }
 }
